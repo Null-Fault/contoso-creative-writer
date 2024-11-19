@@ -154,8 +154,8 @@ def extract_findings(research):
 
 def research(instructions: str):
     """
-    Calls the execute and process functions above to run the research agent 
-    and return the results to the user in a readable format. 
+    Calls the execute and process functions above to run the research agent
+    and return the results to the user in a readable format.
     """
 
     function_calls = execute_researcher_prompty(instructions=instructions)
